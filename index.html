@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Ribot ChatBot</title>
+    <link rel="shortcut icon" type="image/png" href="./robot.png"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <header><h1 >The Ribot ChatBot <i style="font-size:40px" class="fa">&#xf0e6;</i></h1></header>
+    <div class="container mt-5">
+      
+
+        <div class="row mt-1">
+        <div class="col-md-6 col-sm-10 text-center">
+        
+            <iframe name="reb"  width="350" height="500" src="rebot.html" title="rebot" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+            <!-- <img src="chat.png" class="w-75 mt-5" /> -->
+
+        </div>
+        <div class="col-md-4 col-sm-8 offset-1 bg-white p-3" id="outer">
+            <div class="main"></div>
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Ask me any thing!" id="inp_text" style="height: 50px">
+                <div class="input-group-append">
+                    <button id="mic"><i class="fa fa-microphone" ></i></button>
+            <button class="btn btn-primary btn-lg" id="send" style="background-color: blueviolet;"><i class="far fa-paper-plane"></i></button>
+         
+        </div>
+        </div>
+        </div>
+     
+    </div>
+        
+    <footer>
+        All rights reserved, IRISI FSTG. 
+    </footer>
+    </div>
+    <script  src="intents.js"></script>
+    <script  src="main.js"></script>
+   
+
+</body>
+</html>
